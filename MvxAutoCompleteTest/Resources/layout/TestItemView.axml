@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+    <MvxAutoCompleteTextView
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        local:MvxBind="Text Articles; ItemsSource AutoCompleteSuggestions; PartialText CurrentTextHint; SelectedObject SelectedObject"
+        android:id="@+id/txtArticles" />
+</LinearLayout>
