@@ -112,6 +112,8 @@ namespace MvxAutoCompleteTest.ViewModels
             set
             {
                 MvxTrace.Trace("Partial Text Value Sent {0}", value);
+                //Setting _currentTextHint to null if an empty string gets passed here
+                //is extremely important.
                 if (value == "")
                 {
                     _currentTextHint = null;
