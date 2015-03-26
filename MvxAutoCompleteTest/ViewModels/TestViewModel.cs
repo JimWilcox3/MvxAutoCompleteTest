@@ -112,7 +112,16 @@ namespace MvxAutoCompleteTest.ViewModels
             set
             {
                 MvxTrace.Trace("Partial Text Value Sent {0}", value);
-                _currentTextHint = value;
+                if (value == "")
+                {
+                    _currentTextHint = null;
+                    SetSuggestionsEmpty();
+                    return;
+                }
+                else
+                {
+                    _currentTextHint = value;
+                }
 
                 if (_currentTextHint.Trim().Length < 2)
                 {
