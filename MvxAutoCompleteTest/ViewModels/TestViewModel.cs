@@ -1,3 +1,7 @@
+// TestViewModel.cs
+// This example is provided "as-is" licensed using the Microsoft Public License (Ms-PL)
+// MvvmCross is a product of  (c) Copyright Cirrious Ltd. http://www.cirrious.com
+
 using Cirrious.MvvmCross.ViewModels;
 using System;
 using System.Linq;
