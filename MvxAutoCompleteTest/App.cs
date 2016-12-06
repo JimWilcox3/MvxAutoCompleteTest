@@ -1,11 +1,11 @@
-using Cirrious.CrossCore.IoC;
-using Cirrious.MvvmCross.ViewModels;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform.IoC;
 using MvxAutoCompleteTest.ViewModels;
 using System;
 
 namespace MvxAutoCompleteTest
 {
-    public class App : Cirrious.MvvmCross.ViewModels.MvxApplication
+    public class App : MvxApplication
     {
         public override void Initialize()
         {

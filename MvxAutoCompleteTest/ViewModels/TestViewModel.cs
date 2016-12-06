@@ -2,14 +2,14 @@
 // This example is provided "as-is" licensed using the Microsoft Public License (Ms-PL)
 // MvvmCross is a product of  (c) Copyright Cirrious Ltd. http://www.cirrious.com
 
-using Cirrious.MvvmCross.ViewModels;
 using System;
 using System.Linq;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Threading.Tasks;
-using Cirrious.CrossCore.Platform;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform.Platform;
 
 namespace MvxAutoCompleteTest.ViewModels
 {
